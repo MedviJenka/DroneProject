@@ -9,7 +9,7 @@ from core.infrastructure.constants.data import *
 
 
 @dataclass
-class TestSuite(Executor):
+class Checklist(Executor):
 
     """"
     :TODO:  fix execution problem with coverage state
@@ -19,7 +19,6 @@ class TestSuite(Executor):
 
     """
 
-    display_coverage_state: bool = False
     workbook = openpyxl.load_workbook(CHECKLIST)
     _list: list = field(default_factory=list)
 

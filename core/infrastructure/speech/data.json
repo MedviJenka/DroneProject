@@ -1,0 +1,13 @@
+{
+  "actions": [
+    {
+      "tag": "actions",
+      "patterns": [
+        "take off"
+      ],
+      "response": [
+        "take off complete"
+      ]
+    }
+  ]
+}
