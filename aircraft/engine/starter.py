@@ -1,11 +1,1 @@
-from abc import ABC, abstractmethod
-
-
-class Engine(ABC):
-
-    @abstractmethod
-    def start(self, *args, **kwargs) -> None:
-        ...
-
-    def shutdown(self) -> None:
-        ...
+from core.infrastructure.abstract.methods import Engine

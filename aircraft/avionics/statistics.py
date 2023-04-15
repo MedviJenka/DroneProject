@@ -1,0 +1,23 @@
+from dataclasses import dataclass
+
+
+@dataclass
+class EngineStatistics:
+
+    drone: any
+
+    @property
+    def get_data(self) -> list[any]:
+        return ...
+
+    def get_rpm(self) -> int: ...
+
+    def get_temperature(self) -> float: ...
+
+    def get_altitude(self) -> int: ...
+
+    def get_angle_of_attack(self) -> int: ...
+
+    def get_bank_angle(self) -> int: ...
+
+    def get_battery(self) -> float: ...
